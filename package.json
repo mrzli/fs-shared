@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/fs-shared",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared code for file system utils.",
   "author": {
     "name": "Goran Mržljak",
@@ -30,6 +30,7 @@
     "pub": "npm run build && npm run pub-only"
   },
   "dependencies": {
+    "klaw": "^4.1.0",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
@@ -38,6 +39,7 @@
     "@gmjs/tsconfig": "^1.0.0",
     "@jest/globals": "^29.5.0",
     "@types/eslint": "^8.37.0",
+    "@types/klaw": "^3.0.3",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
     "eslint": "^8.40.0",
