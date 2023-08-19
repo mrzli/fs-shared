@@ -4,6 +4,13 @@ All notable changes to the "fs-shared" will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.3] - 2023-08-19
+
+### Changed
+
+- Update dependencies.
+- Update publishing process.
+
 ## [0.0.2] - 2023-05-07
 
 ### Added
